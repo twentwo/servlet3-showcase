@@ -24,9 +24,9 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  *
  * 如下代码直接复制在chapter3下的com.sishuok.chapter3.web.servlet.AsyncServlet3
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 下午8:05
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 下午8:05
+ * @version 1.0
  */
 @Controller
 public class StreamingController {

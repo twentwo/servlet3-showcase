@@ -15,9 +15,9 @@ import java.io.IOException;
 import java.util.Set;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-15 下午8:02
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-15 下午8:02
+ * @version 1.0
  */
 @WebServlet(name = "chatServlet", urlPatterns = "/chat", asyncSupported = true)
 public class ChatServlet extends HttpServlet {

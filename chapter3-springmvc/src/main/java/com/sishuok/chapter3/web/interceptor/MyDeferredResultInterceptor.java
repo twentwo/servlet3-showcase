@@ -10,9 +10,9 @@ import org.springframework.web.context.request.async.DeferredResult;
 import org.springframework.web.context.request.async.DeferredResultProcessingInterceptorAdapter;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 下午9:10
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 下午9:10
+ * @version 1.0
  */
 public class MyDeferredResultInterceptor extends DeferredResultProcessingInterceptorAdapter {
 

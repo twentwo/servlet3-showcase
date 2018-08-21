@@ -67,9 +67,9 @@ import java.util.Map;
  *
  *
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-28 下午7:30
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-28 下午7:30
+ * @version 1.0
  */
 @Controller
 public class BigPipeController {

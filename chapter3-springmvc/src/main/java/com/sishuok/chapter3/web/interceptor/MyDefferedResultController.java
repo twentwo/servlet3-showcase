@@ -14,9 +14,9 @@ import org.springframework.web.context.request.async.DeferredResult;
  *
  * 测试时开启springmvc-config.xml中的mvc:deferred-result-interceptors
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 下午9:16
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 下午9:16
+ * @version 1.0
  */
 @Controller
 public class MyDefferedResultController {

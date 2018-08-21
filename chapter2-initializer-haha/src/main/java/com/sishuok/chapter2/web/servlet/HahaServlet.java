@@ -8,9 +8,9 @@ package com.sishuok.chapter2.web.servlet;
 import javax.servlet.http.HttpServlet;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午8:14
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午8:14
+ * @version 1.0
  */
 public abstract class HahaServlet extends HttpServlet {
 }

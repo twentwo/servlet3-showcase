@@ -11,9 +11,9 @@ import org.springframework.context.annotation.FilterType;
 import org.springframework.stereotype.Controller;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午9:26
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午9:26
+ * @version 1.0
  */
 @Configuration
 @ComponentScan(

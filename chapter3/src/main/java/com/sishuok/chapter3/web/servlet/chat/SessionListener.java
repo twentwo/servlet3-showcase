@@ -10,9 +10,9 @@ import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-15 下午10:20
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-15 下午10:20
+ * @version 1.0
  */
 @WebListener(value = "sessionListener")
 public class SessionListener implements HttpSessionListener {

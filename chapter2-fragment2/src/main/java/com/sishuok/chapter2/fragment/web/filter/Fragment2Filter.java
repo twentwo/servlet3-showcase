@@ -10,11 +10,12 @@ import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午3:07
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午3:07
+ * @version 1.0
  */
 public class Fragment2Filter implements Filter {
+
     @Override
     public void init(final FilterConfig filterConfig) throws ServletException {
 
@@ -29,4 +30,5 @@ public class Fragment2Filter implements Filter {
     @Override
     public void destroy() {
     }
+
 }

@@ -11,14 +11,15 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午2:42
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午2:42
+ * @version 1.0
  */
 @WebFilter(filterName = "filter1", urlPatterns="/*",
         dispatcherTypes = {DispatcherType.REQUEST, DispatcherType.FORWARD})
 
 public class Filter1 implements Filter {
+
     @Override
     public void init(final FilterConfig filterConfig) throws ServletException {
     }
@@ -33,4 +34,5 @@ public class Filter1 implements Filter {
     @Override
     public void destroy() {
     }
+
 }

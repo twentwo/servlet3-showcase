@@ -22,9 +22,9 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  *
  * 可实现长轮询
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-17 上午7:13
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-17 上午7:13
+ * @version 1.0
  */
 @Controller
 public class DeferredResultController {

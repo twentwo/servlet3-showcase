@@ -14,9 +14,9 @@ import javax.servlet.ServletRegistration;
 import java.util.Set;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午4:17
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午4:17
+ * @version 1.0
  */
 public class MyServletContainerInitializer implements ServletContainerInitializer {
 
@@ -27,6 +27,6 @@ public class MyServletContainerInitializer implements ServletContainerInitialize
         dynamic.addMapping("/dynamic4");
 
         sc.getServletRegistrations().get("dynamicServlet4").addMapping("/dynamic41");
-
     }
+
 }

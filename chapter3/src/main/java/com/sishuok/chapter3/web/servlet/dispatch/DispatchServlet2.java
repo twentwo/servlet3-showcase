@@ -17,9 +17,9 @@ import java.io.IOException;
 
 /**
  * 分派到另一个Servlet
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 下午3:46
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 下午3:46
+ * @version 1.0
  */
 @WebServlet(name = "dispatchServlet2", urlPatterns = "/dispatch2", asyncSupported = true)
 public class DispatchServlet2 extends HttpServlet {

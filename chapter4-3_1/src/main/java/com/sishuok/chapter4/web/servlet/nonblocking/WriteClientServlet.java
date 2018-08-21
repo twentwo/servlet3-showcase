@@ -20,9 +20,9 @@ import java.net.URL;
  *
  *  写数据客户端，{@link ReadServlet} 负责读
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-20 下午3:52
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-20 下午3:52
+ * @version 1.0
  */
 @WebServlet(name = "writeClientServlet", urlPatterns = "/writeClient")
 public class WriteClientServlet extends HttpServlet {

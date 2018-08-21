@@ -9,9 +9,9 @@ import javax.servlet.*;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午4:01
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午4:01
+ * @version 1.0
  */
 public class DynamicFilter implements Filter {
 

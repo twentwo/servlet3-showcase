@@ -8,9 +8,9 @@ package com.sishuok.chapter2.service;
 import org.springframework.stereotype.Service;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午9:29
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午9:29
+ * @version 1.0
  */
 @Service
 public class UserService {

@@ -9,9 +9,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-8-3 下午9:01
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-8-3 下午9:01
+ * @version 1.0
  */
 public class BigPipeContext extends HashMap {
 

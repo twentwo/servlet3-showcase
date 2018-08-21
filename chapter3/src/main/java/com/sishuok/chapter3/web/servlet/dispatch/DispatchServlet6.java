@@ -17,9 +17,9 @@ import java.io.IOException;
 
 /**
  * 分派到自己，此时需要一个flag判断当前需要启动异步，还是进行同步处理
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 下午3:46
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 下午3:46
+ * @version 1.0
  */
 @WebServlet(name = "dispatchServlet6", urlPatterns = "/dispatch6", asyncSupported = true)
 public class DispatchServlet6 extends HttpServlet {

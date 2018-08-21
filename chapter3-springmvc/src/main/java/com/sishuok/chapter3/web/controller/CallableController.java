@@ -18,9 +18,9 @@ import java.util.concurrent.Callable;
  * spring实现方式：
  *   1、把任务提交给Executor 异步执行；
  *   2、执行完成后RequestMappingHandlerAdapter使用内部的ServletInvocableHandlerMethod包装返回值，即按照非异步方式再执行
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-16 下午7:59
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-16 下午7:59
+ * @version 1.0
  */
 @Controller
 public class CallableController {

@@ -8,9 +8,9 @@ package com.sishuok.bigpipe;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-8-3 下午9:00
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-8-3 下午9:00
+ * @version 1.0
  */
 public interface PageletView {
 

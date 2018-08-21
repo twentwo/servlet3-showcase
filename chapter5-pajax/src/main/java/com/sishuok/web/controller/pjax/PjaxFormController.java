@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-26 下午10:26
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-26 下午10:26
+ * @version 1.0
  */
 @Controller
 @RequestMapping("/form")

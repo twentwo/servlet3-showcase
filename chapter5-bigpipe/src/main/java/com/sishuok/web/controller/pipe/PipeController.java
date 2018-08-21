@@ -19,9 +19,9 @@ import java.util.concurrent.Callable;
  *
  *  此请求需要15秒才能下载完
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-28 上午11:07
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-28 上午11:07
+ * @version 1.0
  */
 @Controller
 public class PipeController {

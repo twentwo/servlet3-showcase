@@ -9,15 +9,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午2:27
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午2:27
+ * @version 1.0
  */
 @WebServlet(name = "servlet1", urlPatterns = {"/s1", "/s1/*"}, loadOnStartup = 1,
         initParams = {
                 @WebInitParam(name = "msg", value="hello world")
         })
 public class Servlet1 extends HttpServlet {
+
     private String msg;
 
     public Servlet1() {
@@ -34,4 +35,5 @@ public class Servlet1 extends HttpServlet {
     protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
         System.out.println(msg);
     }
+
 }

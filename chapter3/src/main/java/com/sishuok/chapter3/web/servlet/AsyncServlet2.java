@@ -17,9 +17,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-22 下午10:02
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-22 下午10:02
+ * @version 1.0
  */
 @WebServlet(name = "asyncServlet2", urlPatterns = "/async2", asyncSupported = true)
 public class AsyncServlet2 extends HttpServlet {

@@ -8,9 +8,9 @@ package com.sishuok.bigpipe;
 import org.springframework.util.Assert;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-8-4 上午8:55
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-8-4 上午8:55
+ * @version 1.0
  */
 public class PageletResult {
     private boolean isFrameResult = false;

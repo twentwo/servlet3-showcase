@@ -13,9 +13,9 @@ import java.lang.reflect.Modifier;
 import java.util.Set;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午4:17
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午4:17
+ * @version 1.0
  */
 @HandlesTypes(value = HahaServlet.class)
 public class HahaServletContainerInitializer implements ServletContainerInitializer {
@@ -31,10 +31,7 @@ public class HahaServletContainerInitializer implements ServletContainerInitiali
                 dynamic.addMapping(pattern);
                 System.out.println(pattern);
             }
-
         }
-
-
-
     }
+
 }

@@ -16,9 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 上午7:19
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 上午7:19
+ * @version 1.0
  */
 @WebServlet(name = "listenerServlet1", urlPatterns = "/listener1", asyncSupported = true)
 public class ListenerServlet1 extends HttpServlet {

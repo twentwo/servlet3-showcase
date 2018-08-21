@@ -18,9 +18,9 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-22 下午3:04
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-22 下午3:04
+ * @version 1.0
  */
 @MultipartConfig(
 

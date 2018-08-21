@@ -12,9 +12,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午9:35
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午9:35
+ * @version 1.0
  */
 @Controller
 public class UserController {

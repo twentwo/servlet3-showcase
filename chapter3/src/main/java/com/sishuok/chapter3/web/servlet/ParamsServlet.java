@@ -14,9 +14,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-25 上午7:50
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-25 上午7:50
+ * @version 1.0
  */
 @WebServlet(name = "p", urlPatterns = "/params")
 public class ParamsServlet extends HttpServlet {

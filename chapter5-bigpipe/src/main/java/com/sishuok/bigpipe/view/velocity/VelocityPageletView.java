@@ -13,9 +13,9 @@ import java.io.IOException;
 import java.io.StringWriter;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-8-4 上午9:14
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-8-4 上午9:14
+ * @version 1.0
  */
 public class VelocityPageletView extends AbstractVelocityPageletView {
 

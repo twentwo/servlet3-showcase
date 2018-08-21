@@ -17,9 +17,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-15 下午9:03
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-15 下午9:03
+ * @version 1.0
  */
 public class MsgPublisher {
 

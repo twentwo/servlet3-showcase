@@ -14,9 +14,9 @@ import java.io.IOException;
 import java.util.Arrays;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-20 上午11:54
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-20 上午11:54
+ * @version 1.0
  */
 @WebServlet(name = "requestParameterServlet", urlPatterns = "/requestParameter")
 public class RequestParameterServlet extends HttpServlet {

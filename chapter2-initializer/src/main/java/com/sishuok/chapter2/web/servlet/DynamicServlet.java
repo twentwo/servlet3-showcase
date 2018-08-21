@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午4:16
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午4:16
+ * @version 1.0
  */
 public class DynamicServlet extends HttpServlet {
 
@@ -22,4 +22,5 @@ public class DynamicServlet extends HttpServlet {
     protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("chapter2 initializer dynamic servlet request");
     }
+
 }

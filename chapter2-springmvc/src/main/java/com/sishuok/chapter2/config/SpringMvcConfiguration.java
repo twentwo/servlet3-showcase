@@ -17,9 +17,9 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午9:30
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午9:30
+ * @version 1.0
  */
 @Configuration
 @EnableWebMvc

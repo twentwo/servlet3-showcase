@@ -13,13 +13,15 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午3:06
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午3:06
+ * @version 1.0
  */
 public class Fragment2Servlet extends HttpServlet {
+
     @Override
     protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("fragment2 servlet request");
     }
+
 }

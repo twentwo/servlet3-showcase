@@ -76,9 +76,9 @@ import java.io.IOException;
  *        public void destroy();
  *
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-20 下午10:59
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-20 下午10:59
+ * @version 1.0
  */
 @WebServlet(name = "myUpgradeServlet", urlPatterns = "/upgrade")
 public class MyUpgradeServlet extends HttpServlet {

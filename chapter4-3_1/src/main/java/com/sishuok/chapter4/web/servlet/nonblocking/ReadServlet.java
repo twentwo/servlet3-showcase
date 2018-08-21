@@ -18,9 +18,9 @@ import java.io.IOException;
  *
  * 即如果客户端写入速度很慢时，如果使用阻塞I/O，此刻同步等待，浪费一个线程，如果使用非阻塞I/O，可以在数据可用时得到回调，提高并发
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-20 下午2:27
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-20 下午2:27
+ * @version 1.0
  */
 @WebServlet(name = "readServlet", urlPatterns = "/read", asyncSupported = true)
 public class ReadServlet extends HttpServlet {

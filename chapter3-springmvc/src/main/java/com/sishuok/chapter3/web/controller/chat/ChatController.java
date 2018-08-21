@@ -17,9 +17,9 @@ import javax.servlet.http.HttpSession;
 import java.util.Set;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-17 上午11:53
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-17 上午11:53
+ * @version 1.0
  */
 @Controller
 @RequestMapping("/chat")

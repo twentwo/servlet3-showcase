@@ -6,9 +6,9 @@
 package com.sishuok.bigpipe;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-8-4 上午9:07
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-8-4 上午9:07
+ * @version 1.0
  */
 public interface PageletViewResolver {
 

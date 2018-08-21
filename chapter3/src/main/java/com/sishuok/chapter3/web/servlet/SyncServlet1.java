@@ -14,9 +14,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-22 下午10:02
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-22 下午10:02
+ * @version 1.0
  */
 @WebServlet(name = "syncServlet1", urlPatterns = "/sync1")
 public class SyncServlet1 extends HttpServlet {

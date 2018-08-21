@@ -22,9 +22,9 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  *
  * 无法解决chrome loading的问题
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-22 下午10:02
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-22 下午10:02
+ * @version 1.0
  */
 @WebServlet(name = "asyncServlet3", urlPatterns = "/async3", asyncSupported = true)
 public class AsyncServlet3 extends HttpServlet {

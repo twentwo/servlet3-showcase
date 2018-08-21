@@ -25,9 +25,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-29 下午12:06
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-29 下午12:06
+ * @version 1.0
  */
 public class BigpipeTaskReturnValueHandler implements
         HandlerMethodReturnValueHandler, ApplicationContextAware, InitializingBean {

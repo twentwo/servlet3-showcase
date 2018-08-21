@@ -14,9 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-22 下午2:40
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-22 下午2:40
+ * @version 1.0
  */
 @WebServlet(name = "resourceServlet", urlPatterns = "/resource")
 public class ResourceServlet extends HttpServlet {

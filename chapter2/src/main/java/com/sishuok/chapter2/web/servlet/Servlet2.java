@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午3:31
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午3:31
+ * @version 1.0
  */
 @WebServlet(name = "servlet2", urlPatterns = "/s2")
 public class Servlet2 extends HttpServlet {
@@ -24,4 +24,5 @@ public class Servlet2 extends HttpServlet {
     protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("chapter2 servlet2 request");
     }
+
 }

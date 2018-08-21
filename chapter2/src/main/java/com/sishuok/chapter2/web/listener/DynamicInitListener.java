@@ -15,18 +15,18 @@ import javax.servlet.ServletRegistration;
 import javax.servlet.annotation.WebListener;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午4:02
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午4:02
+ * @version 1.0
  */
 @WebListener
 public class DynamicInitListener implements ServletContextListener {
+
     @Override
     public void contextInitialized(final ServletContextEvent sce) {
+
         ServletContext sc = sce.getServletContext();
-
         sc.addListener("com.sishuok.chapter2.web.listener.DynamicServletContextListener");
-
         sc.addFilter("dynamicFilter", DynamicFilter.class);
 
         ServletRegistration.Dynamic dynamic1 = sc.addServlet("dynamicServlet1", DynamicServlet.class);
@@ -44,4 +44,5 @@ public class DynamicInitListener implements ServletContextListener {
     @Override
     public void contextDestroyed(final ServletContextEvent sce) {
     }
+
 }

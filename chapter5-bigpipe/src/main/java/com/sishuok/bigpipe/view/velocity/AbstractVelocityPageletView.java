@@ -15,9 +15,9 @@ import org.springframework.context.ApplicationContextException;
 import org.springframework.web.servlet.view.velocity.VelocityConfig;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-8-4 上午9:32
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-8-4 上午9:32
+ * @version 1.0
  */
 public abstract class AbstractVelocityPageletView extends AbstractPageletView {
 

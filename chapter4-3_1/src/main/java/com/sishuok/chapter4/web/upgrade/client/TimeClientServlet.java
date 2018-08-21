@@ -22,9 +22,9 @@ import java.net.Socket;
  *
  * 客户端没有使用非阻塞I/O
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-21 上午8:26
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-21 上午8:26
+ * @version 1.0
  */
 @WebServlet(name = "timeClientServlet", urlPatterns = "/time", asyncSupported = true)
 public class TimeClientServlet extends HttpServlet {

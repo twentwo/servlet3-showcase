@@ -10,9 +10,9 @@ import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 下午4:26
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 下午4:26
+ * @version 1.0
  */
 @WebFilter(
         filterName = "asyncFilter2",

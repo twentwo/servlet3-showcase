@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-28 下午8:11
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-28 下午8:11
+ * @version 1.0
  */
 public class BigPipeTask {
 

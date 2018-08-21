@@ -14,9 +14,9 @@ import java.util.concurrent.Callable;
 
 /**
  * 即使使用异步，出现异常时 和普通springmvc处理方式是一样的
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-16 下午9:19
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-16 下午9:19
+ * @version 1.0
  */
 @Controller
 public class ExceptionController {

@@ -19,9 +19,9 @@ import java.io.IOException;
  *
  * 即不需要阻塞的等待客户端读取
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-20 下午7:43
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-20 下午7:43
+ * @version 1.0
  */
 @WebServlet(name = "writeServlet", urlPatterns = "/write", asyncSupported = true)
 public class WriteServlet extends HttpServlet {

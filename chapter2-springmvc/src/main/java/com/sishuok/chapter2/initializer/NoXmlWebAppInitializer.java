@@ -17,9 +17,9 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午9:23
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午9:23
+ * @version 1.0
  */
 public class NoXmlWebAppInitializer implements WebApplicationInitializer {
 

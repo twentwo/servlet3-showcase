@@ -15,9 +15,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-22 下午10:02
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-22 下午10:02
+ * @version 1.0
  */
 @WebServlet(name = "asyncServlet1", urlPatterns = "/async1", asyncSupported = true)
 public class AsyncServlet1 extends HttpServlet {

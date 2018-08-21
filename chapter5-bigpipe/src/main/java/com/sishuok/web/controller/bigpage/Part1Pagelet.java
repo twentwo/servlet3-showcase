@@ -13,9 +13,9 @@ import org.springframework.stereotype.Controller;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-28 下午8:20
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-28 下午8:20
+ * @version 1.0
  */
 @Controller("bigpipe/part1")
 public class Part1Pagelet implements Pagelet {

@@ -13,9 +13,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午3:31
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午3:31
+ * @version 1.0
  */
 @WebServlet(name = "changeSessionIdServlet", urlPatterns = "/changeSessionId")
 public class ChangeSessionIdServlet extends HttpServlet {

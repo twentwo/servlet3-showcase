@@ -15,9 +15,9 @@ import javax.servlet.http.Part;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-22 下午3:04
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-22 下午3:04
+ * @version 1.0
  */
 @MultipartConfig(
         location = "", //即默认为 javax.servlet.context.tempdir 如mvn jetty:run 在chapter4\target\tmp中

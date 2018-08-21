@@ -10,9 +10,9 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午2:47
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午2:47
+ * @version 1.0
  */
 @WebListener
 public class ServletContextListener1 implements ServletContextListener {
@@ -26,4 +26,5 @@ public class ServletContextListener1 implements ServletContextListener {
     public void contextDestroyed(final ServletContextEvent sce) {
         System.out.println("destroy servlet container");
     }
+
 }

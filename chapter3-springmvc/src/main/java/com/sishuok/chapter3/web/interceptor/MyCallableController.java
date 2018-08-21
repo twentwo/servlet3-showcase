@@ -15,9 +15,9 @@ import java.util.concurrent.Callable;
  *
  * 测试时开启springmvc-config.xml中的mvc:callable-interceptors
  *
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-18 下午9:02
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-18 下午9:02
+ * @version 1.0
  */
 @Controller
 public class MyCallableController {

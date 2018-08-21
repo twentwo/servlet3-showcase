@@ -11,9 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午8:15
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午8:15
+ * @version 1.0
  */
 public class MyHahaServlet1 extends HahaServlet {
 
@@ -21,4 +21,5 @@ public class MyHahaServlet1 extends HahaServlet {
     protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("chapter2 initializer haha my haha servlet1 request");
     }
+
 }

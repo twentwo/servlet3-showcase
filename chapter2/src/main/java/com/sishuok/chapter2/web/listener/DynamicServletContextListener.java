@@ -9,11 +9,12 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-6-21 下午4:07
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-6-21 下午4:07
+ * @version 1.0
  */
 public class DynamicServletContextListener implements ServletContextListener {
+
     @Override
     public void contextInitialized(final ServletContextEvent sce) {
         System.out.println("dynamic servlet context init");
@@ -23,4 +24,5 @@ public class DynamicServletContextListener implements ServletContextListener {
     public void contextDestroyed(final ServletContextEvent sce) {
         System.out.println("dynamic servlet context destroy");
     }
+
 }

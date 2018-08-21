@@ -26,7 +26,4 @@
         <url-pattern>/fragment2</url-pattern>
     </servlet-mapping>
 
-
-
-
 </web-fragment>

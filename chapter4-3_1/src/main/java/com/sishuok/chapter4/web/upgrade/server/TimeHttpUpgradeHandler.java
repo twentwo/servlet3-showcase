@@ -15,9 +15,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 13-7-20 下午10:59
- * <p>Version: 1.0
+ * @author Zhang Kaitao
+ * @date 13-7-20 下午10:59
+ * @version 1.0
  */
 public class TimeHttpUpgradeHandler implements HttpUpgradeHandler {
 
